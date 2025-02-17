@@ -39,17 +39,6 @@ export default buildConfig({
       // Feel free to delete this at any time. Simply remove the line below and the import `BeforeDashboard` statement on line 15.
       // beforeDashboard: ['@/components/BeforeDashboard'],
       // actions: ['@/components/BeforeLogin', '@/components/BeforeDashboard'],
-
-      views: {
-        'create-account': {
-          Component: 'src/components/Users/CreateAccountViewComponent',
-          path: '/create-account'
-        },
-        'login': {
-          Component: 'src/components/Users/CreateAccountViewComponent',
-          path: '/login'
-        },
-      },
       graphics: {
         Logo: "src/components/Logo/Logo",
         Icon: "src/components/Logo/Logo",
