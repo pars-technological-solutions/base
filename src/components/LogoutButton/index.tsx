@@ -1,12 +1,13 @@
 import React from 'react'
 
-const BeforeLogin: React.FC = () => {
+const Logout: React.FC = () => {
   return (
     <div>
       <p>
+        <b>Logout</b>
       </p>
     </div>
   )
 }
 
-export default BeforeLogin
+export default Logout
